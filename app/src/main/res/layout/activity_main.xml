@@ -26,7 +26,8 @@
         <Spinner
             android:id="@+id/spner_Sexo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
 
         <TextView
             android:id="@+id/textView"
@@ -67,18 +68,17 @@
             android:text="Calcular IMC" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txtIMC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="IMC"
             android:textColor="#000000"
             android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/txtIMC"
+        <TextView
+            android:id="@+id/txtMensaje"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
