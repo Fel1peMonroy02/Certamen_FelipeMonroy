@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button CalcularIMC;
 
         TextView MensajeFinal, MensajeIMC;
-        
+
         Sexo = findViewById(R.id.spner_Sexo);
 
         Peso = findViewById(R.id.txtPeso);
